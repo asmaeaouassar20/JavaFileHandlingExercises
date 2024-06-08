@@ -10,7 +10,7 @@ essential file operations. The explanations are clear and concise, making it eas
 understand the concepts.
 
 Meanwhile, the 'ExercicesANDSolutions' folder contains exercises statements along with their
-solutions, providinf practice opportunities to reinforce  your understanding of file handing in Java.
+solutions, providing practice opportunities to reinforce  your understanding of file handing in Java.
 
 
 ## Prerequisites
