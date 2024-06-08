@@ -1,0 +1,24 @@
+
+You are given the following file :
+
+_____________________________________________________
+<html>
+
+<head>
+<title> This is our title </title>
+</head>
+
+<body>
+<h1> Hi I am Asmae ! </h1>
+<p> Nice to meet you ! </p>
+</body>
+
+</html>
+_______________________________________________________
+
+create this file named "asmae.html"
+
+# You can create a new file, then fill it, or you write to an already existing file
+
+## help : you can start with an ArrayList  filled with different lines of the file
+
