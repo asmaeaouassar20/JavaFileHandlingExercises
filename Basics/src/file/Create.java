@@ -26,6 +26,10 @@ public class Create {
         }
     }
 
+    // REMARK : if you only assign the name of the file you want to create to the pathname variable,
+    // the file will be created in the same folder of your project
+
+
     public static void main(String[] args) {
         // Let's call our function and execute
         createFile();
