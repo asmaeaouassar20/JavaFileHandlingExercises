@@ -14,9 +14,11 @@ solutions, providing practice opportunities to reinforce  your understanding of 
 
 
 ## Prerequisites
+- Basic Programming Knowledge
 - OOP concepts
 - Exceptions
 - Read input from sources like standard input (keyboard)
+- Familiarity with commonly used Java libraries and packages
 
 
 ## Please note
