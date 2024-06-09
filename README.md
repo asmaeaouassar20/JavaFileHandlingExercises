@@ -16,6 +16,7 @@ solutions, providing practice opportunities to reinforce  your understanding of 
 ## Prerequisites
 - OOP concepts
 - Exceptions
+- Read input from sources like standard input (keyboard)
 
 
 ## Please note
