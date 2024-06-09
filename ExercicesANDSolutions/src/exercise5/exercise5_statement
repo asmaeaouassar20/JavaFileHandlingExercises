@@ -1,0 +1,7 @@
+
+
+- Given a file filled with some information ( :) try creating a file and filling it with whatever content you want )
+- Choose a word that exists in this file
+- Create a method called int occurWord(String word) which returns how many times this word
+    given as a parameter appears in the file
+

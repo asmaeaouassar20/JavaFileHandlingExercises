@@ -1,0 +1,4 @@
+
+write a Java method that allows the user
+ to add content to an existing file
+ by specifying whether he wants to add it or overwrite it

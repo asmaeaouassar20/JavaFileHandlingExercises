@@ -1,0 +1,10 @@
+
+
+
+- You have two files "input" and "output"
+- Try to create them in your folder
+* in general you can have a full "input" file
+  and an empty "output" file
+- Our goal is to transfer the content of the file "input" file to the "output" file
+
+
