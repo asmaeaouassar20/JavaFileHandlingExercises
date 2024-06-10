@@ -1,0 +1,11 @@
+
+<<< our goal is to calculate the number of occurrences of a letter in a file >>
+
+So
+
+You create a file
+You put in it a content of your choice
+
+Then, you create a method that accepts as parameter a letter and a file,
+ and which returns the number of occurrences of the letter in the file
+
