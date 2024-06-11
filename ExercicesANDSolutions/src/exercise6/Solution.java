@@ -31,7 +31,7 @@ public class Solution {
     }
 
     public static void main(String[] args) throws IOException{
-        // pick up the filex
+        // pick up the file
         File file=new File("C://Users//PC//Desktop//learnJavaWithAsmae/myFile.txt");
 
         Scanner scanner=new Scanner(System.in);
