@@ -1,0 +1,36 @@
+
+
+given a file that contains some products and their prices like this:
+product1 18
+product2 25.75
+
+create methods to do the following:
+
+------ manipulate arrays ----------------------
+insert these information into an array
+
+------ manipulate ArrayList ----------------------
+insert these information into an ArrayList
+
+------ manipulate database ----------------------
+insert these information into a table in a database
+
+
+Before you start, you need to create a file containing something like this information written like this:
+product1 - 18
+product2  - 25.75
+
+--------------------------------------------
+you can copy this example
+--------------------------------------------
+Apple - 1.50
+Banana - 0.75
+Orange Juice - 3.00
+Milk - 3.50
+Whole Wheat Bread - 2.50
+Eggs - 2.50
+Vanilla Ice Cream - 5.00
+Tomato - 1.30
+Chicken - 5.50
+Almond Milk - 3.20
+-------------------------------------------
