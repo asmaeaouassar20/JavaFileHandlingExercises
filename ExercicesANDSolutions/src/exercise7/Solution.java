@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Solution {
 
@@ -12,7 +13,7 @@ public class Solution {
      * @param Products array of product [string]
      * @param Prices array of prices of products [float]
      */
-    public void storeInArray(String[] Products,float[] Prices){
+    public static void storeInArray(String[] Products,float[] Prices){
 
         if(Products.length!=Prices.length){
             System.out.println("lengths of the two arrays must be equal");
@@ -56,13 +57,55 @@ public class Solution {
             e.printStackTrace();
         }
     }
-    public boolean stringIsFloat(String s){
+
+    /**
+     * check if a string can be converted to a float
+     * @param s can be whether a string or a float
+     * @return true if 's' can be converted to float, false otherwise
+     */
+    public static boolean stringIsFloat(String s){
         try{
             Float.parseFloat(s);
             return true;
         }catch (Exception e){
-            e.printStackTrace();
+            //e.printStackTrace();
             return false;
         }
+    }
+
+
+
+    public static void displayProducts(String[] arrayOfProducts){
+        for(String s:arrayOfProducts){
+            System.out.print(s+"  -  ");
+        }
+        System.out.println();
+    }
+    public static void displayPrices(float[] arrayOfPrices){
+        for(float f:arrayOfPrices){
+            System.out.print(f+"  -  ");
+        }
+        System.out.println();
+    }
+    public static void main(String[] args) {
+
+        Scanner scanner=new Scanner(System.in);
+
+        System.out.print("enter the number of products: ");
+        int n=scanner.nextInt();
+
+        String[] arrayOfProducts=new String[n];
+        float[] arrayOfPrices=new float[n];
+
+        System.out.println("\n------ before calling  storeInArray() ------");
+        displayProducts(arrayOfProducts);
+        displayPrices(arrayOfPrices);
+
+        storeInArray(arrayOfProducts,arrayOfPrices);
+
+
+        System.out.println("\n------ after calling  storeInArray() ------");
+        displayProducts(arrayOfProducts);
+        displayPrices(arrayOfPrices);
     }
 }
