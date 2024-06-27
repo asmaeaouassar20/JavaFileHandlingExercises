@@ -1,12 +1,11 @@
 package exercise7;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Solution {
+public class Solution1Array {
 
     /**
      * This method stores the data that exists in the file in two arrays provided as parameters

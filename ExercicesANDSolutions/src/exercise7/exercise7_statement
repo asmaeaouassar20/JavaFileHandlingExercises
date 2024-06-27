@@ -6,13 +6,13 @@ product2 25.75
 
 create methods to do the following:
 
------- manipulate arrays ----------------------
+------(1) manipulate arrays ----------------------
 insert these information into an array
 
------- manipulate ArrayList ----------------------
+------(2) manipulate ArrayList ----------------------
 insert these information into an ArrayList
 
------- manipulate database ----------------------
+------(3) manipulate database ----------------------
 insert these information into a table in a database
 
 
